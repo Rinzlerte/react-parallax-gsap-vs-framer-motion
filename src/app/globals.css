@@ -105,3 +105,118 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.section {
+  padding-inline: 20px;
+  padding-block: 160px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding-inline: 20px;
+}
+
+.container-inner{
+  position: relative;
+}
+
+.parallax-container {
+  margin-top: 100px;
+}
+
+.image-box{
+  position: relative;
+  padding-block: 40px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.image-box .image{
+  width: calc(100% / 2.5);
+}
+
+.image-box .image.third {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+
+.text-box p span , .text-box p{
+  position: relative;
+}
+
+
+.container {
+  position: relative;
+}
+
+.pSection {
+  padding-block: 100px;
+}
+
+
+.pContent {
+  width: 65%;
+  background-color: rgba(78,152,21,0.8);
+  color: white;
+  padding: 40px 60px;
+}
+
+.pImage {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  max-height: 900px;
+  z-index: -1;
+}
+
+.framer-section{
+  margin-top: 100px;
+  background: thistle;
+  position: relative;
+  overflow: hidden;
+}
+
+.main {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.image-container {
+  position: relative;
+}
+
+
+.image-container::before{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.image-container-wrapper {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: calc(100% / 3);
+}
